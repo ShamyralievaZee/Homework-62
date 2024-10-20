@@ -11,7 +11,9 @@ const App = () => {
     <div className="App">
       <nav className="navbar navbar-expand-lg main-nav">
         <div className="container">
-          <NavLink className="navbar-brand logo" to="/">SorosoGodies</NavLink>
+          <NavLink className="navbar-brand logo" to="/">
+            <img src="./../public/images/Logo.png" alt="logo" className='logo'/>
+          </NavLink>
           <div>
             <ul className="navbar-nav">
               <li className="nav-item">

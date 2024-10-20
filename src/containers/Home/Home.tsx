@@ -1,54 +1,34 @@
+import Ending from '../../components/Ending/Ending.tsx';
+import WideImage from '../../components/WideImage/WideImage.tsx';
+import ImageAndArticle from '../../components/ImageAndArticle/ImageAndArticle.tsx';
+
 const Home = () => {
   return (
     <div className="home-container">
-      <div className="home-image">
-        <img
-          src='https://images.unsplash.com/photo-1707305639519-a59e2ff514a5?q=80&w=3732&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-          alt="HomeImg"/>
-      </div>
+      <WideImage  src='../../../public/images/MainImage.jpg'  alt="HomeImg"/>
 
-      <div className="home-content">
-        <div className="home-image">
-          <img className='image'
-               src="https://images.unsplash.com/photo-1707305639519-a59e2ff514a5?q=80&w=3732&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-               alt="Home"/>
-        </div>
+      <ImageAndArticle
+        imgSrc='../../../public/images/outfits-1.jpg'
+        imgAlt='ArticleImage'
+        title='Discover Your Cute Fashion Style'
+        text="At Soroso, fashion isn't just about clothes—it's about expressing who you are! Our cute fashion test
+    is designed to help you find the perfect style that reflects your personality. From playful prints to chic
+    accessories, discover your unique look with us."
+        reverse={true}
+      />
 
-        <div>
-          <h1>Lorem ipsum dolor sit.</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis lacus a nunc fermentum
-            sollicitudin.
-            Duis tincidunt nibh vel metus dictum, et pretium turpis faucibus. Integer fringilla orci quis
-            efficitur fringilla.
-          </p>
-        </div>
-      </div>
+      <ImageAndArticle
+        imgSrc='../../../public/images/outfits-2.jpg'
+        imgAlt='ArticleImage'
+        title='Discover Your Cute Fashion Style'
+        text="At SorosoGoodies, we believe fashion should be fun and expressive. Our cute fashion test helps you discover
+            the looks that truly resonate with your personality.  From playful patterns to elegant accessories, let us guide you through finding your perfect style."
+        reverse={false}
+      />
 
-      <div className="home-content">
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis lacus a nunc fermentum
-            sollicitudin.
-          </p>
-          <p>
-            Duis tincidunt nibh vel metus dictum, et pretium turpis faucibus. Integer fringilla orci quis
-            efficitur fringilla.
-          </p>
-        </div>
+      <WideImage   src='../../../public/images/Main-4.jpg'  alt="HomeImg"/>
 
-        <div className="home-image">
-          <img className='image'
-               src="https://images.unsplash.com/photo-1707305639519-a59e2ff514a5?q=80&w=3732&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-               alt="Home"/>
-        </div>
-      </div>
-
-      <div className="home-image">
-        <img
-          src='https://images.unsplash.com/photo-1707305639519-a59e2ff514a5?q=80&w=3732&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-          alt="HomeImg"/>
-      </div>
+      <Ending/>
     </div>
 
   );
