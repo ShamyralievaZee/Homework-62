@@ -5,7 +5,7 @@ interface ImageAndArticleProps {
   imgAlt: string;
   title: string;
   text: string;
-  reverse?: boolean; // Optional prop
+  reverse?: boolean;
 }
 
 const ImageAndArticle: React.FC<ImageAndArticleProps> = ({ imgSrc, imgAlt, title, text, reverse = false }) => {

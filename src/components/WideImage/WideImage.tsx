@@ -4,6 +4,7 @@ interface WideImageProps {
   src: string;
   alt: string;
 }
+
 const WideImage: React.FC<WideImageProps> = ({ src, alt }) => {
   return (
     <div>

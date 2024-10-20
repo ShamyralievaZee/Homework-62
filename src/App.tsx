@@ -4,7 +4,6 @@ import Home from './containers/Home/Home.tsx';
 import './App.css';
 import AboutUs from './containers/AboutUs/AboutUs.tsx';
 import Contacts from './containers/Contacts/Contacts.tsx';
-import Portfolio from './containers/Portfolio/Portfolio.tsx';
 
 const App = () => {
   return (
@@ -27,10 +26,6 @@ const App = () => {
               <li className="nav-item">
                 <NavLink className="nav-link" to="/contacts">Contacts</NavLink>
               </li>
-
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/portfolio">Portfolio</NavLink>
-              </li>
             </ul>
           </div>
         </div>
@@ -41,7 +36,6 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/contacts" element={<Contacts />} />
-          <Route path="/portfolio" element={<Portfolio />}/>
         </Routes>
       </div>
     </div>

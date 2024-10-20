@@ -12,8 +12,8 @@ const Home = () => {
         imgAlt='ArticleImage'
         title='Discover Your Cute Fashion Style'
         text="At Soroso, fashion isn't just about clothes—it's about expressing who you are! Our cute fashion test
-    is designed to help you find the perfect style that reflects your personality. From playful prints to chic
-    accessories, discover your unique look with us."
+        is designed to help you find the perfect style that reflects your personality. From playful prints to chic
+        accessories, discover your unique look with us."
         reverse={true}
       />
 
@@ -22,15 +22,15 @@ const Home = () => {
         imgAlt='ArticleImage'
         title='Discover Your Cute Fashion Style'
         text="At SorosoGoodies, we believe fashion should be fun and expressive. Our cute fashion test helps you discover
-            the looks that truly resonate with your personality.  From playful patterns to elegant accessories, let us guide you through finding your perfect style."
+        the looks that truly resonate with your personality.  From playful patterns to elegant accessories, let us
+        guide you through finding your perfect style."
         reverse={false}
       />
 
-      <WideImage   src='../../../public/images/Main-4.jpg'  alt="HomeImg"/>
+      <WideImage src='../../../public/images/Main-4.jpg'  alt="HomeImg"/>
 
       <Ending/>
     </div>
-
   );
 };
 
